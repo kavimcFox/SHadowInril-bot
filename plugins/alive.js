@@ -186,7 +186,7 @@ bots.commands.map((command) => {
                   ppuser = await client.profilePictureUrl(client.user.jid, 'image')
             } 
 	catch {
-                       ppuser = 'https://i.ibb.co/gdp7HrS/8390ad4fefbd.jpg'
+                       ppuser = 'https://te.legra.ph/2yyyyyyyyyyyyyyyy-03-19.jpg'
             }
   let mension = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": ""}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: await getBuffer(ppuser), surface: 200, message: BOT_INFO.split(',')[0], orderTitle: BOT_INFO.split(',')[1], sellerJid: client.user.jid }}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
   let prefix  = PREFIX == 'false' ? '' : PREFIX;
